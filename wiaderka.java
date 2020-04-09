@@ -34,10 +34,10 @@ public class wiaderka implements Sortable {
         }
         int podzi = max/ilwiad + 1;
 
-        List<Integer>[] wiaderka = new List[ilwiad];
+        List<Integer>[] wiaderka = new List[ilwiad];// tworzy listę przechowującą kubełki 
 
         for(int q = 0; q < ilwiad; q++){
-            wiaderka[q] = new LinkedList<>();
+            wiaderka[q] = new LinkedList<>(); // lista dla każdego kubełka
         }
 
         for(int num : jb){
