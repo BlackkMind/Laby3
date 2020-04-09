@@ -16,7 +16,7 @@ public class bombelki implements Sortable {
                     int bi = jb[j];
                     jb[j] =  jb[j+1];
                     jb[j+1] = bi;
-                }
+                }// porównuje kolejne elemnty tablicy i zamnienia je
             }
         }
         return jb;
