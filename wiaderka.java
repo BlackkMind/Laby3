@@ -23,14 +23,14 @@ public class wiaderka implements Sortable {
 
     @Override
     public int[] sort(int[] tab) {
-        int ilwiad = 5; // jakas liczba kubełków
+        int ilwiad = 5; // jakas liczba kubełków im więcej tym mniej potównań 
         int[] jb = Arrays.copyOf(tab, tab.length);
         int max = jb[0];
 
-        for(int q = 0; q < jb.length; q++) {
+        for(int q = 0; q < jb.length; q++) { 
             if(max < jb[q]) {
                 max = jb[q];
-            }
+            }// szukanie max wartości w tablicy 
         }
         int podzi = max/ilwiad + 1;
 
