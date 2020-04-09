@@ -16,7 +16,7 @@ public class Main {
 
         for(int i = 0; i < tab.length; i++) {
             tab[i] = random.nextInt(30000);
-        }
+        }// losowe liczby w tablicy o max 200 elementów 
 
 
         System.out.print("Wybierz sposob sortowania \n1-Babelkowe\n2-kubelkowe\nktory wybierasz?: ");
@@ -24,11 +24,11 @@ public class Main {
 
         switch (wyb) {
             case 1:
-                wy = bombelki.sort(tab);
+                wy = bombelki.sort(tab); 
                 k = bombelki.step_counting();
                 break;
             case 2:
-                wy = wiaderka.sort(tab);
+                wy = wiaderka.sort(tab);// wywołanie sort i stepc_counting z klasy wiaderka
                 k = wiaderka.step_counting();
                 break;
                 default:
