@@ -53,7 +53,8 @@ public class wiaderka implements Sortable {
                 jb[q++] = t;
             }
         }
-
+/* jako że nie wiemy jakie liczby będą a będziemy musieli je poukładać w kubełkach 
+to bierzemy maksymalną liczbę z tablicy i dzielimy ją przez iloszcz kubelków +1 aby móc wyliczyć indeks do którego kubełka ma trafić dana liczba */
         return jb;
     }
 
