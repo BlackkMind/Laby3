@@ -1,6 +1,5 @@
-Szczegó³y dzia³ania programy zawar³em w programie w postaci wykomendowanego tekstu.
 
-Tak pokrótce program tworzy tablice 200 losowych elementów. Na samym pocz¹tku program proœci u¿ytkowinka o wybranie metody sortowania.
-Sortowanie Bombelkowe jest zawartê w klasie  bombelki gdzie kopiowania jest oryginalna tablica aby nie zmieniaæ orygina³y. Nastêpnie program porównuje elementy tablicy i ustala je wd³ug zadanego porz¹dku.
-Sortowanie Kube³kowe jest zawartê w klasie wiaderka gdzie z za³o¿enie s¹ utworzone 5 wiaderek (choæ im wiêcej ich zadeklarujemy tym mniej prównañ bêdzie) nastêpnie jest szukana maksymalna wartoœæ w tablicy i tworzona zostaje lista dla ka¿dego kube³ka i rozdzialne s¹ kolejne elementy na kube³ki
-Zawartoœæ poszczególnych kube³ków zostaje posortowania za pomoc¹ sortowania bombelkowego i wyœwietlona.
+Tak pokrÃ³tce program tworzy tablice 200 losowych elementÃ³w. Na samym poczÄ…tku program proÅ›ci uÅ¼ytkowinka o wybranie metody sortowania.
+Sortowanie Bombelkowe jest zawartÄ™ w klasie  bombelki gdzie kopiowania jest oryginalna tablica aby nie zmieniaÄ‡ oryginaÅ‚y. NastÄ™pnie program porÃ³wnuje elementy tablicy i ustala je wdÅ‚ug zadanego porzÄ…dku.
+Sortowanie KubeÅ‚kowe jest zawartÄ™ w klasie wiaderka gdzie z zaÅ‚oÅ¼enie sÄ… utworzone 5 wiaderek (choÄ‡ im wiÄ™cej ich zadeklarujemy tym mniej prÃ³wnaÅ„ bÄ™dzie) nastÄ™pnie jest szukana maksymalna wartoÅ›Ä‡ w tablicy i tworzona zostaje lista dla kaÅ¼dego kubeÅ‚ka i rozdzialne sÄ… kolejne elementy na kubeÅ‚ki
+ZawartoÅ›Ä‡ poszczegÃ³lnych kubeÅ‚kÃ³w zostaje posortowania za pomocÄ… sortowania bombelkowego i wyÅ›wietlona.
